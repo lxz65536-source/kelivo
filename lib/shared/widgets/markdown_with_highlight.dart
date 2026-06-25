@@ -136,7 +136,7 @@ class _MarkdownWithCodeHighlightState extends State<MarkdownWithCodeHighlight> {
     final baseTextStyle =
         (widget.baseStyle ?? Theme.of(context).textTheme.bodyMedium)?.copyWith(
           fontSize: widget.baseStyle?.fontSize ?? 15.5,
-          height: widget.baseStyle?.height ?? 1.55,
+          height: widget.baseStyle?.height ?? 1,
           letterSpacing:
               widget.baseStyle?.letterSpacing ?? (_isZh(context) ? 0.0 : 0.05),
           color: null,
